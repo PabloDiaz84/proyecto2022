@@ -1,0 +1,15 @@
+{
+  "name": "solution_day_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js" 
+  },
+  "author": "",
+  "license": "ISC"
+}

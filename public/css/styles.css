@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 18px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+header div.top-header p{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form{
+    width: 50%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header .form{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 15px;
+}
+
+header .form .submit {
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+    padding: 10px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header nav{
+    font-size: 16px;
+    margin-left: 20px;
+    display: none;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 10px;
+}
+
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+article .description {
+    display: none;
+}
+
+article:hover .description {
+    display: block;
+}
+
+.description article:hover{
+    color: transparent;
+    transition: color 2s;
+}
+
+article:hover .description{
+    color:#666
+}
+
+.fa-truck{
+    transition: all 2s;
+}
+
+article:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+.products article{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    transition: box-shadow 3s;
+}
+
+.products article:hover{
+    box-shadow: 30px 30px 80px rgb(100, 100, 100);
+}
+
+.products article:hover .fa-truck{
+    transform: rotate(-90deg);
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+.register{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #ebebeb;
+    border-color: #ebebeb;
+    padding-top: 20px;
+}
+
+input[type="email" i] {
+    padding: 1px 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="date" i] {
+    align-items: center;
+    display: inline-flex;
+    font-family: monospace;
+    padding-inline-start: 5px;
+    cursor: default;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.login .footer .ul{
+    display: flex;
+}
+
+main .login .submit{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 2px;
+    align-items: center;
+    font-style: oblique;
+    transition: 450ms;
+}
+
+input[type="text" i]{
+    width: 98%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input[type="password" i]{
+    width: 98%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input[type="submit" i]{
+    width: 98%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: #4f7dc2;
+    color: white;
+}
+
+.button{
+    width: 80%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+legend{
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 25px;
+}
+
+footer ul li div{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 10px;
+
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+footer ul li div i:hover{
+    color:#0044AA;
+}
+    
+
+footer ul li div i{
+    display: flex;
+    transition: all 450ms;
+    padding: 10px;
+    transform: scale(2);
+}
+
+.buttons{
+    justify-content: center;
+    width: 45%;
+}
+
+footer{
+    padding: 20px;
+}
+
+.tittlefooter{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.vacio{
+    padding-top: 262px;
+}
+
+@media (min-width: 361px){
+    main section article .description{
+        display: none;
+    }
+
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+
+    header nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header nav ul li{
+        margin: 8px;
+    }
+
+    div.burger-menu{
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+
+    footer li{
+        display: flex;
+    }
+
+    .login .footer .il{
+        display: flex;
+    }
+}
