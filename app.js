@@ -17,4 +17,4 @@ app.get("/register", (req, res) => {
 })
 
 const port = process.env.PORT || 3040;
-app.listen(port, () =>console.log("Servidor corriendo en el puerto $(port)"));
+app.listen(port, () =>console.log(`Servidor corriendo en el puerto $(port)`));

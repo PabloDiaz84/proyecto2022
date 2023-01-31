@@ -10,7 +10,7 @@
     "express": "^4.18.2"
   },
   "scripts": {
-    "test": "nodemon src/index.js",
+    "test": "nodemon app.js",
     "start": "node app.js" 
   },
   "author": "",
